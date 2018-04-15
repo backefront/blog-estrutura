@@ -22,6 +22,29 @@
         <%- post.content %>
       <% } %>
     </div>
+	<% if (!index && post.author){ %>
+		<div class="article-author">
+			<figure>
+				<img src="/author/<%= post.authorImg %>" alt="Foto do <%= post.author %>" class="author-figure">
+			</figure>
+			<div class="about-author">
+				<p class="author-name"><%= post.author %></p>
+				<p class="author-description"><%= post.authorDesc %></p>
+				<% if (post.authorLinkedin || post.authorGithub){ %>
+					<% if (post.authorLinkedin){ %>
+						<a href="https://linkedin.com/in/<%- post.authorLinkedin %>" alt="Link para o Linkedin de <%- post.author %>">
+							LinkedIn
+						</a>
+					<% } %>
+					<% if (post.authorGithub){ %>
+						<a href="https://github.com/<%- post.authorGithub %>" alt="Link para o Github de <%- post.author %>">
+							Github
+						</a>
+					<% } %>
+				<% } %>
+			</div>
+		</div>
+    <% } %>
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <% if (post.comments && config.disqus_shortname){ %>

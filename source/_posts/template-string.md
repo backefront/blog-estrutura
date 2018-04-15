@@ -4,9 +4,14 @@ date: 2018-04-11 19:30:54
 tags:
 - Front-end
 - Javascript
+author: Victor Jordan
+authorImg: victor.png
+authorDesc: Desenvolvedor front-end na FITec e formando em Banco de Dados pela Fatec, apaixonado por usabilidade, performance e UX!
+authorLinkedin: victorjordan95
+authorGithub: victorjordan95
 ---
 
-Template Strings são literais strings que permitem a concatenação de strings e expressões de um modo muito mais fácil e agradável de interpretar o código. Em minha opinião, é uma das features implementadas no ECMAScript 2015 que mais me facilitou no desenvolvimento de códigos!
+Template Strings são literais strings que permitem a concatenação de strings e expressões de um modo muito mais fácil e agradável de interpretar o código. Em minha opinião, é uma das features implementadas no ECMAScript 2015 que facilitou meu desenvolvimento de códigos!
 
 ## Como utilizar template strings
 
@@ -91,7 +96,7 @@ var encapsulado = `Esse blog é ${valor()}`; //Resultado: Esse blog é 10
 
 Template Strings é uma característica do ES6 que veio para facilitar nossas vidas, é extremamente poderoso e muito útil no nosso dia-a-dia! Sua aceitação entre os navegadores é praticamente total, como demonstrado na imagem abaixo, através de um site de consulta do que podemos usar, o [caniuse](https://caniuse.com) 
 
-![Can I Use - Template Strings](/images/CanIUse - Template Strings.png)
+![Can I Use - Template Strings](/posts/CanIUse - Template Strings.png)
 
 Espero que utilizem essa fantástica propriedade!
 

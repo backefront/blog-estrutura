@@ -48,19 +48,19 @@ gulp.task('minify-html', function() {
             minifyCSS: true,
             minifyURLs: true,
         }))
-        .pipe(gulp.dest('./.deploy_git'))
+        .pipe(gulp.dest('./public'))
 });
 
 gulp.task('minify-js', function() {
     return gulp.src('./public/**/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('./.deploy_git'));
+        .pipe(gulp.dest('./public'));
 });
 
 gulp.task('minify-img', function() {
-    return gulp.src('./public/images/*')
+    return gulp.src('./public/posts/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./.deploy_git/images'))
+        .pipe(gulp.dest('./public/posts'))
 })
 
 gulp.task('compress', function(cb) {

@@ -4,10 +4,15 @@ date: 2018-04-10 13:21:09
 tags: 
 - Javascript
 - Front-end
+author: Victor Jordan
+authorImg: victor.png
+authorDesc: Desenvolvedor front-end na FITec e formando em Banco de Dados pela Fatec, apaixonado por usabilidade, performance e UX!
+authorLinkedin: victorjordan95
+authorGithub: victorjordan95
 ---
 
 
-Quem nunca encontrou essas palavras enquanto procurava por referências ou até mesmo quando estava dando manutenção em um código, e acabou se deparando com ele?
+Quem nunca encontrou essas palavras enquanto procurava por referências ou até mesmo quando estava realizando a manutenção de um código, e acabou se deparando com ele?
 É bem comum encontrarmos "strict mode" nos scripts mas como funciona seu funcionamento e para que serve? Neste post, explicaremos para você como usar e para que usar!
 
 <!-- more -->
@@ -67,6 +72,7 @@ function getName(valor1, valor2, valor1){} // Lança erro de compilação
 [MDN - Strict mode](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Strict_mode)
 [w3schools - JavaScript Use Strict](https://www.w3schools.com/js/js_strict.asp)
 
+Escrito por [Victor Jordan](https://www.linkedin.com/in/victorjordan95/)
 
 
 

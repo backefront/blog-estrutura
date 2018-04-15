@@ -81,3 +81,7 @@ deploy:
   type: git
   repo: git@github.com:backefront/backefront.github.io.git
   branch: master
+  
+#Comments
+	
+disqus_shortname: backefront

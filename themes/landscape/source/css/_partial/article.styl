@@ -37,7 +37,44 @@
   transition: color 0.2s
   a&:hover
     color: color-link
+	
+.article-author
+  background-color: #424242
+  border-top: 5px solid #212121
+  border-bottom: 5px solid #212121
+  color: #EEEEEE
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
+  padding: 20px
+  @media screen and (min-width: 768px)
+    justify-content: flex-start
+  
+.author-figure
+  align-self: center
+  border: solid 5px #353234
+  border-radius: 50%
+  height: 100px;
+  width: 100px;
+  
+.about-author
+  align-self: center
+  text-align: center
+  @media screen and (min-width: 768px)
+    text-align: left
+    width: 60%
 
+	
+.author-name
+  font-size: 1.5em
+
+.author-description
+  margin-bottom: 16px
+  
+.about-author a
+  color: #EEEEEE;
+  padding: 0 10px 0 0;
+	
 .article-entry
   @extend $base-style
   clearfix()

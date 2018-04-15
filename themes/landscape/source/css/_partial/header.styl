@@ -34,12 +34,14 @@
   z-index: -1
 
 #header-title
-  text-align: center
-  height: logo-size
-  position: absolute
-  top: 50%
-  left: 0
-  margin-top: logo-size * -0.5
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  top: 10px;
+  position: relative;
+  @media screen and (min-width: 768px)
+    top: 56px;
 
 $logo-text
   text-decoration: none
@@ -49,9 +51,13 @@ $logo-text
 
 #logo
   @extend $logo-text
-  font-size: logo-size
+  font-size: 1.5em
+  font-weight: bold
   line-height: logo-size
   letter-spacing: 2px
+  @media screen and (min-width: 768px)
+    font-size: logo-size
+
 
 #subtitle
   @extend $logo-text

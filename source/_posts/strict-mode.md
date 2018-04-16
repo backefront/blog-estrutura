@@ -73,6 +73,3 @@ function getName(valor1, valor2, valor1){} // Lança erro de compilação
 [w3schools - JavaScript Use Strict](https://www.w3schools.com/js/js_strict.asp)
 
 Escrito por [Victor Jordan](https://www.linkedin.com/in/victorjordan95/)
-
-
-

@@ -17,7 +17,7 @@ Beleza, mas o que isso significa?
 Um tipo imutável não permite a alteração do estado de um objeto criado a partir dele de forma _desautorizada_.
 
 Vamos ver um tipo "normal" (mutável):
-
+<!-- more -->
     public class Pessoa {
 
         private String nome;

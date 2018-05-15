@@ -11,11 +11,15 @@ author: Igor Venturelli e Victor Jordan
 language: pt
 timezone: America/Sao_Paulo
 
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://yoursite.com
+url: https://backefront.com.br/
 root: /
-permalink: :day/:month/:year/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory

@@ -1,6 +1,8 @@
 ---
 title: Como funciona o Strict Mode
 date: 2018-04-10 13:21:09
+postKeywords: Strict Mode, Javascript, dicas JS, como funciona strict, modo strict
+postDescription: Entenda o funcionamento do "Strict mode", muito utilizado no desenvolvimento de scripts em Javascript
 tags: 
 - Javascript
 - Front-end

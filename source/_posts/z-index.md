@@ -1,6 +1,8 @@
 ---
 title: Entendendo o z-index
 date: 2018-05-10 11:05:44
+postKeywords: z-index, css, como funciona z-index, posicionamento css
+postDescription: Entenda como funciona a propriedade z-index do CSS!
 tags: 
 - CSS
 - Front-end

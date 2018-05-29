@@ -9,6 +9,7 @@ authorImg: igor.png
 authorDesc: Desenvolvedor back-end na Mult-e Engenharia Digital e admirador de Java, Python, Go e DevOps!
 authorLinkedin: igorventurelli
 authorGithub: igorventurelli
+authorStackoverflow: 5963/igor-venturelli
 ---
 
 Se você já programa em Java há algum tempo, provavelmente deve ter se deparado com a frase: _Strings são imutáveis_.  

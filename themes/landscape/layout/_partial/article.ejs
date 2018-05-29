@@ -30,7 +30,7 @@
 			<div class="about-author">
 				<p class="author-name"><%= post.author %></p>
 				<p class="author-description"><%= post.authorDesc %></p>
-				<% if (post.authorLinkedin || post.authorGithub){ %>
+				<% if (post.authorLinkedin || post.authorGithub || post.authorStackoverflow){ %>
 					<% if (post.authorLinkedin){ %>
 						<a href="https://linkedin.com/in/<%- post.authorLinkedin %>" alt="Link para o Linkedin de <%- post.author %>">
 							LinkedIn
@@ -39,6 +39,11 @@
 					<% if (post.authorGithub){ %>
 						<a href="https://github.com/<%- post.authorGithub %>" alt="Link para o Github de <%- post.author %>">
 							Github
+						</a>
+          <% } %>
+          <% if (post.authorStackoverflow){ %>
+						<a href="https://pt.stackoverflow.com/users/<%- post.authorStackoverflow %>" alt="Link para o StackOverflow de <%- post.author %>">
+							StackOverflow
 						</a>
 					<% } %>
 				<% } %>

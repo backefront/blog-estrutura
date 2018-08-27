@@ -3,7 +3,7 @@ title: Método findIndex() Javascript
 date: 2018-08-27 11:43:25
 tags: Javascript, Front-end 
 postKeywords: JS, findindex, ecmascript, dicas de javascript, retornar indice.
-postDescription: Método para encontrar índice de um array que não sabemos exatamente a posição que se encontra
+postDescription: Aprenda como encontrar elementos em um array com o findIndex, um método simples e fácil de ser utilizado!
 author: Victor Jordan
 authorImg: victor.png
 authorDesc: Desenvolvedor front-end na FITec e formando em Banco de Dados pela Fatec, apaixonado por usabilidade, performance e UX!

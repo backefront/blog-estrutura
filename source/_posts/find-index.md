@@ -11,8 +11,6 @@ authorLinkedin: victorjordan95
 authorGithub: victorjordan95
 ---
 
-## Introdução
-
 Digamos que temos o seguinte array e o banco de dados nos retorna apenas o valor da `role`, mas precisamos exibir em nosso front-end o valor da `label`. Para isso, precisamos acessar a lista pela role e retornar o nome da mesma. Mas como fazer isso?
 
 ``` javascript

@@ -1,5 +1,5 @@
 ---
-title: Método findIndex() Javascript
+title: Como encontrar o índice de um elemento de um array em Javascript
 date: 2018-08-27 11:43:25
 tags: Javascript, Front-end 
 postKeywords: JS, findindex, ecmascript, dicas de javascript, retornar indice.
@@ -11,15 +11,9 @@ authorLinkedin: victorjordan95
 authorGithub: victorjordan95
 ---
 
-## Definição
+## Introdução
 
-O método `findIndex()` retorna o índice do primeiro elemento que satisfaz uma determinada condição. Caso não encontre nenhuma, ele retorna -1.
-
-## Aplicação
-
-Podemos utilizar caso seja necessário encontrar o índice de um array mas não sabemos em que posição ele se encontra, como por exemplo, temos o seguinte JSON:
-
-<!-- more --> 
+Digamos que temos o seguinte array e o banco de dados nos retorna apenas o valor da `role`, mas precisamos exibir em nosso front-end o valor da `label`. Para isso, precisamos acessar a lista pela role e retornar o nome da mesma. Mas como fazer isso?
 
 ``` javascript
 const lista = [
@@ -31,6 +25,10 @@ const lista = [
     { role: 'NONE', name: 'None' }
 ];
 ```
+
+<!-- more --> 
+
+## Aplicação
 
 Em nossa API, quando fazemos o GET do usuário, ele retorna a apenas a `role` do usuário. Por questões visuais, não podemos deixar exibindo na tela uma informação sem a devida tratativa, correto? Então como faríamos para acessar o `name` da lista através da `role` que temos na mão? Para isso, podemos usar o FindIndex!
 

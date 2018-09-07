@@ -1,5 +1,5 @@
 ---
-title: Template Strings, o que é?
+title: Template Strings, o que é e como usar?
 date: 2018-04-11 19:30:54
 postKeywords: javascript, ecmascript, es6, ecma, ECMAScript 2015, template string, string template, templates string, literais strings
 postDescription: Template Strings são literais strings que permitem a concatenação de strings e expressões de um modo muito mais fácil e agradável de interpretar o código. Aprenda como implementá-la!

@@ -1,7 +1,9 @@
 ---
 title: Como usar o método filter em Javascript
 date: 2018-08-27 11:43:25
-tags: Javascript, Front-end
+tags: 
+- Javascript
+- Front-end
 postKeywords: JS, filter, ecmascript, dicas de javascript, retornar elementos, ECMAScript 5
 postDescription: Entenda como o método filter funciona no javascript e como ele pode melhorar o seu desenvolvimento front-end com essas dicas de javascript.
 author: Victor Jordan

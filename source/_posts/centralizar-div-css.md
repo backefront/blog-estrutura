@@ -1,7 +1,9 @@
 ---
 title: Como centralizar uma div no meio da página
 date: 2018-09-07 10:23:08
-tags: CSS3, Front-end
+tags: 
+- CSS
+- Front-end
 postKeywords: Flexbox, alinhar div no meio, centralizar conteudo, alinhar conteudo no meio da div, centralizar div
 postDescription: Centralizar um conteúdo no centro de um elemento é uma situação comum de acontecer. Existem diversas formas de fazer isso, mas nesta publicação, mostrarei como centralizar uma div utilizando o `flexbox`!
 author: Victor Jordan

@@ -2,8 +2,12 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  
   "hexo": {
     "version": "3.7.1"
+  },
+  "scripts": {
+    "build": "gulp build"
   },
   "dependencies": {
     "del": "^3.0.0",

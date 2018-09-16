@@ -1,9 +1,9 @@
 ---
-title: Como adicionar diferentes SSH Key no Github no mesmo computador
+title: Multiplas SSH Key no Github no mesmo computador
 date: 2018-09-03 11:48:56
 tags: 
 - Git
-postKeywords: Diferentes SSH Key, várias ssh keys, git, ssh key, criar ssh key, git, github, deploy key
+postKeywords: Diferentes SSH Key, várias ssh keys, git, ssh key, criar ssh key, git, github, deploy key, Manage Multiple SSH Logins
 postDescription: Como criar diferentes SSH key no mesmo computador para usar em repositórios diferentes, sem precisar excluir nenhuma
 author: Victor Jordan
 authorImg: victor.png

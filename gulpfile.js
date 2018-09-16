@@ -31,6 +31,40 @@ gulp.task('generate', function(cb) {
     })
 })
 
+var hexo = new Hexo(process.cwd(), {});
+gulp.task('hexoclean', function(cb) {
+    hexo.init().then(function() {
+        return hexo.call('clean', {
+            watch: false
+        });
+    }).then(function() {
+        return hexo.exit();
+    }).then(function() {
+        return cb()
+    }).catch(function(err) {
+        console.log(err);
+        hexo.exit(err);
+        return cb(err);
+    })
+})
+
+
+gulp.task('deploy', function(cb) {
+    hexo.init().then(function() {
+        return hexo.call('deploy', {
+            watch: false
+        });
+    }).then(function() {
+        return hexo.exit();
+    }).then(function() {
+        return cb()
+    }).catch(function(err) {
+        console.log(err);
+        hexo.exit(err);
+        return cb(err);
+    })
+})
+
 gulp.task('minify-css', function() {
     return gulp.src('./public/**/*.css')
         .pipe(minifycss({
@@ -70,7 +104,7 @@ gulp.task('compress', function(cb) {
 
 //gulp.task('build', ['clean', 'generate', 'compress']);
 gulp.task('build', function(cb) {
-    runSequence('clean', 'generate', 'compress', cb)
+    runSequence('clean', 'generate', 'compress', 'deploy', 'hexoclean', cb)
 });
 
 gulp.task('default', [])

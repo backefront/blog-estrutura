@@ -8,8 +8,8 @@ branches:
 install: npm install
 
 before_script:
-- git config --global user.name "KL"
-- git config --global user.email "kfldev@outlook.com"
+- git config --global user.name "Victor Jordan"
+- git config --global user.email "victorjordan95@gmail.com"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 - npm install -g gulp
 
